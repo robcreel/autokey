@@ -1,0 +1,31 @@
+{
+    "type": "phrase",
+    "description": "Data_Class_activate",
+    "modes": [
+        1
+    ],
+    "usageCount": 10,
+    "prompt": false,
+    "omitTrigger": false,
+    "matchCase": false,
+    "showInTrayMenu": true,
+    "abbreviation": {
+        "abbreviations": [
+            ";classactivate"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": true,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": "konsole.konsole",
+        "isRecursive": false
+    },
+    "sendMode": "kb"
+}

@@ -1,0 +1,1 @@
+ cd /home/rob/Code/PythonDataNW/ && source bin/activate && cd -

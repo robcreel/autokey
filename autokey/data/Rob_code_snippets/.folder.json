@@ -1,0 +1,27 @@
+{
+    "type": "folder",
+    "title": "Rob_code_snippets",
+    "modes": [
+        1
+    ],
+    "usageCount": 3,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            "`"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[^\\t]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

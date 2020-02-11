@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb, units, fancyhdr, full page, polynom, multicol, systeme,  hyperref, url, enumitem}
+\usepackage[pdftex]{graphicx}
+\usepackage{tikz}
+\usepackage[dvips,letterpaper,margin = 0.75in]{geometry}
+\usetikzlibrary{intersections}
+\usetikzlibrary{arrows}
+\usepgflibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathreplacing}
+
+\setlength\parindent{0pt}
+\newcounter{prob_num}
+\setcounter{prob_num}{0}
+\newcommand{\prob}{\stepcounter{prob_num} \noindent \textbf{\arabic{prob_num}}.\qquad}
+
+\newcommand{\twoprobs}[2]{\noindent\hbox to 0.5\textwidth{#1\hfill}#2}
+\newcommand{\pb}{\pagebreak}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lb}{\vspace{12pt}}
+\newcommand{\inv}{^{-1}}
+\newcommand{\dg}{^{\circ}}
+\newcommand{\diff}[2]{\ds\frac{\dee}{\dee{#2}}\left( {#1} \right)}
+\newcommand*\dee{\mathop{}\!\mathrm{d}}
+\newcommand*\ee{\mathop{}\!\mathrm{e}}
+\newcommand{\integrate}[4]{
+\ds\int_{#3}^{#4} \! #1 \, \dee#2
+}
+\newcommand{\antidiff}[2]{
+\ds\int \! #1 \, \dee#2
+}
+\newcommand{\syseq}{\sysdelim..\systeme}
+\newcommand{\grid}[3]{
+\begin{tikzpicture}[scale = #1]
+\draw[very thin,color=gray] (0,0) grid (#2,#3);
+\end{tikzpicture}
+}
+\pagestyle{empty}
+
+
+\begin{document}
+
+\noindent Name: \underline{\hspace{3in}} \hfill  \textbf{Document}
+
+Do the things.\lb\lb
+
+\prob $\diff{\cos x}{x}$\lb
+
+\prob $\antidiff{\ee^x}{x}$\lb
+
+\prob $\integrate{\ee^x \cos x}{x}{0}{\pi}$\lb
+
+\prob $\syseq{x + 3y = 10, 4x - 3y = 7}$\lb
+
+\prob $\systeme{x + 3y = 10, 4x - 3y = 7}$\lb\lb
+
+Generic graph.
+
+
+\begin{tikzpicture}[scale = 1, domain=-1.37:2.35, samples = 100, decoration = {ticks, segment length = .5cm}]
+\draw[very thin,color=gray] (-4,-4) grid (4,4);
+\draw [thick, decorate] (-4,0) -- (4,0);
+\draw [thick, decorate] (0,-4) -- (0,4);
+\draw[very thick, ->] (-4,0) -- (4,0) node[right] {$x$};
+\draw[very thick, ->] (0,-4) -- (0,4) node[above] {$y$};
+
+\foreach \x/\xtext in {-4, -2, 2, 3.14/\pi, 4}
+\draw[xshift=\x cm] (0pt,1pt) -- (0pt,-1pt) node[below] {$\xtext$};
+
+\foreach \y/\ytext in {-4, -2, 2, 4}
+\draw[yshift=\y cm] (1pt,0pt) -- (-1pt,0pt) node[left] {$\ytext$};
+
+\draw[line width=1.2pt,smooth,samples=100,domain=-2:2] plot(\x,{(\x)^(2)});
+\end{tikzpicture}
+
+
+\end{document}

@@ -1,0 +1,27 @@
+{
+    "type": "folder",
+    "title": "Database",
+    "modes": [
+        1
+    ],
+    "usageCount": 4,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            ":sql"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": true,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

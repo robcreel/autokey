@@ -1,0 +1,1 @@
+plt.bar(x_axis, bars_in_cities, color='b', align='center')

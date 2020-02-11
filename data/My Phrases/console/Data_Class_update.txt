@@ -1,0 +1,1 @@
+cd /home/rob/Code/PythonDataNW/NU-CHI-DATA-PT-11-2019-U-C && git pull

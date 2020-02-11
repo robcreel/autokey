@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Some_Title_Text_Is_Here  <cursor> </title>
+</head>
+
+<body>
+
+</body>
+</html>

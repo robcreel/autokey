@@ -1,0 +1,3 @@
+plt.scatter(x_axis, data, marker="o", facecolors="red", 
+            edgecolors="black",
+            s=x_axis, alpha=0.75)

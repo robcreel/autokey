@@ -1,0 +1,1 @@
+\COPY table_name(columns_list) FROM '/path/to/file.csv' DELIMITER ',' CSV HEADER;
