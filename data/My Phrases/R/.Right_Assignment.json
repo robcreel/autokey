@@ -1,11 +1,14 @@
 {
-    "type": "folder",
-    "title": "My Phrases",
+    "type": "phrase",
+    "description": "Right_Assignment",
     "modes": [
         3
     ],
-    "usageCount": 18,
-    "showInTrayMenu": true,
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "matchCase": false,
+    "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
         "backspace": true,
@@ -16,12 +19,14 @@
     },
     "hotkey": {
         "modifiers": [
+            "<alt>",
             "<ctrl>"
         ],
-        "hotKey": " "
+        "hotKey": "-"
     },
     "filter": {
-        "regex": "RStudio",
+        "regex": "rstudio.RStudio",
         "isRecursive": false
-    }
+    },
+    "sendMode": "kb"
 }
