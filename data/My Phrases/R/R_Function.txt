@@ -1,0 +1,4 @@
+function_name <- function(arg1, arg2){
+    code
+    return(output)
+}
