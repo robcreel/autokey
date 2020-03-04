@@ -1,6 +1,6 @@
 # Rob's Personal AutoKey Configuration
 
-### Installation
+## Installation
 (After installing AutoKey)
 
 * Backup old setting if you like.
