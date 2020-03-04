@@ -1,5 +1,5 @@
 {
-    "folders": [], 
+4    "folders": [], 
     "toggleServiceHotkey": {
         "hotKey": "k", 
         "modifiers": [
@@ -20,14 +20,14 @@
         "menuTakesFocus": false, 
         "interfaceType": "XRecord", 
         "windowDefaultSize": [
-            600, 
-            400
+            1680, 
+            1014
         ], 
         "showToolbar": true, 
         "serviceRunning": true, 
         "columnWidths": [
-            216,
-            73,
+            138, 
+            43, 
             100
         ],
         "showToolbar": true,
@@ -46,12 +46,9 @@
         ],
         "hotKey": "k"
     },
-            138, 
-            43, 
-            100
         ], 
         "workAroundApps": ".*VirtualBox.*|krdc.Krdc", 
-        "hPanePosition": 260, 
+        "hPanePosition": 729, 
         "isFirstRun": false
     }, 
     "userCodeDir": null, 
