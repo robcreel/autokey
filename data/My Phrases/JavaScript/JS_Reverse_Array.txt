@@ -1,0 +1,4 @@
+// Reverse the array
+var numArray4 = [1, 2, 3];
+var reversedArray = numArray4.reverse()
+console.log(reversedArray);

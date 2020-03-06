@@ -1,0 +1,6 @@
+// Sort the array in descending order
+var numArray = [1, 2, 3];
+numArray.sort(function compareFunction(firstNum, secondNum) {
+  // resulting order is (3, 2, 1)
+  return secondNum - firstNum;
+});
