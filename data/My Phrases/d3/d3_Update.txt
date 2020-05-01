@@ -1,0 +1,15 @@
+function update(data) {
+
+    var selection = d3.select("#content").selectAll(".temps")
+        .data(data);
+
+    selection.enter()
+        .append("div")
+        .classed("temps", true)
+        .merge(selection)
+        .style("height", function(d) {
+            return d + "px";
+        });
+
+    selection.exit().remove();
+}
